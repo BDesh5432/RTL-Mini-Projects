@@ -1,0 +1,503 @@
+$date
+	Wed Aug 27 14:25:28 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Mul_TB $end
+$var wire 1 ! eqz $end
+$var wire 1 " done $end
+$var wire 1 # decB $end
+$var wire 1 $ clrP $end
+$var wire 1 % LdP $end
+$var wire 1 & LdB $end
+$var wire 1 ' LdA $end
+$var reg 1 ( clk $end
+$var reg 16 ) data_in [15:0] $end
+$var reg 1 * reset $end
+$var reg 1 + start $end
+$scope module Cp $end
+$var wire 1 ( clk $end
+$var wire 1 * reset $end
+$var wire 1 + start $end
+$var wire 1 ! eqz $end
+$var parameter 3 , S0 $end
+$var parameter 3 - S1 $end
+$var parameter 3 . S2 $end
+$var parameter 3 / S3 $end
+$var parameter 3 0 S4 $end
+$var reg 1 ' LdA $end
+$var reg 1 & LdB $end
+$var reg 1 % LdP $end
+$var reg 1 $ clrP $end
+$var reg 1 # decB $end
+$var reg 1 " done $end
+$var reg 3 1 next_state [2:0] $end
+$var reg 3 2 state [2:0] $end
+$upscope $end
+$scope module Dp $end
+$var wire 1 ' LdA $end
+$var wire 1 & LdB $end
+$var wire 1 % LdP $end
+$var wire 1 ( clk $end
+$var wire 1 $ clrP $end
+$var wire 16 3 data_in [15:0] $end
+$var wire 1 # decB $end
+$var wire 1 ! eqz $end
+$var wire 16 4 Z [15:0] $end
+$var wire 16 5 Y [15:0] $end
+$var wire 16 6 X [15:0] $end
+$var wire 16 7 Bout [15:0] $end
+$scope module A $end
+$var wire 1 ' LdA $end
+$var wire 1 ( clk $end
+$var wire 16 8 din [15:0] $end
+$var reg 16 9 dout [15:0] $end
+$upscope $end
+$scope module B $end
+$var wire 1 & LdB $end
+$var wire 1 ( clk $end
+$var wire 1 # decB $end
+$var wire 16 : din [15:0] $end
+$var reg 16 ; dout [15:0] $end
+$upscope $end
+$scope module P $end
+$var wire 1 % LdP $end
+$var wire 1 ( clk $end
+$var wire 1 $ clrP $end
+$var wire 16 < din [15:0] $end
+$var reg 16 = dout [15:0] $end
+$upscope $end
+$scope module add $end
+$var wire 16 > A [15:0] $end
+$var wire 16 ? B [15:0] $end
+$var reg 16 @ C [15:0] $end
+$upscope $end
+$scope module eq $end
+$var wire 16 A din [15:0] $end
+$var wire 1 ! eqz $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 0
+b11 /
+b10 .
+b1 -
+b0 ,
+$end
+#0
+$dumpvars
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+b0 :
+bx 9
+b0 8
+bx 7
+bx 6
+bx 5
+bx 4
+b0 3
+bx 2
+b0 1
+0+
+1*
+b0 )
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+b0 2
+1(
+#6
+0"
+0#
+0$
+0%
+0&
+0'
+#10
+b1 1
+0(
+1+
+b111 )
+b111 3
+b111 8
+b111 :
+0*
+#15
+b10 1
+b1 2
+1(
+#16
+1'
+#20
+b10 1
+0(
+0+
+#25
+b11 1
+b111 6
+b111 9
+b111 >
+b10 2
+1(
+#26
+1$
+1&
+0'
+#30
+0(
+b101 )
+b101 3
+b101 8
+b101 :
+#35
+b111 4
+b111 <
+b111 @
+b11 2
+0!
+b101 7
+b101 ;
+b101 A
+b0 5
+b0 =
+b0 ?
+1(
+#36
+1#
+1%
+0$
+0&
+#40
+0(
+#45
+b1110 4
+b1110 <
+b1110 @
+b111 5
+b111 =
+b111 ?
+b100 7
+b100 ;
+b100 A
+1(
+#50
+0(
+#55
+b10101 4
+b10101 <
+b10101 @
+b11 7
+b11 ;
+b11 A
+b1110 5
+b1110 =
+b1110 ?
+1(
+#60
+0(
+#65
+b11100 4
+b11100 <
+b11100 @
+b10101 5
+b10101 =
+b10101 ?
+b10 7
+b10 ;
+b10 A
+1(
+#70
+0(
+#75
+b100 1
+b100011 4
+b100011 <
+b100011 @
+1!
+b1 7
+b1 ;
+b1 A
+b11100 5
+b11100 =
+b11100 ?
+1(
+#80
+0(
+#85
+b101010 4
+b101010 <
+b101010 @
+b0 1
+b100011 5
+b100011 =
+b100011 ?
+0!
+b0 7
+b0 ;
+b0 A
+b100 2
+1(
+#86
+1"
+0#
+0%
+#90
+0(
+#95
+b0 2
+1(
+#96
+0"
+#100
+0(
+#105
+1(
+#110
+0(
+#115
+1(
+#116
+1*
+#120
+0(
+#125
+1(
+#126
+b1 1
+1+
+b11 )
+b11 3
+b11 8
+b11 :
+0*
+#130
+0(
+#135
+b10 1
+b1 2
+1(
+#136
+b10 1
+1'
+0+
+#140
+0(
+#145
+b100110 4
+b100110 <
+b100110 @
+b11 1
+b11 6
+b11 9
+b11 >
+b10 2
+1(
+#146
+1$
+1&
+0'
+b1010 )
+b1010 3
+b1010 8
+b1010 :
+#150
+0(
+#155
+b11 4
+b11 <
+b11 @
+b11 2
+b1010 7
+b1010 ;
+b1010 A
+b0 5
+b0 =
+b0 ?
+1(
+#156
+1#
+1%
+0$
+0&
+#160
+0(
+#165
+b110 4
+b110 <
+b110 @
+b11 5
+b11 =
+b11 ?
+b1001 7
+b1001 ;
+b1001 A
+1(
+#170
+0(
+#175
+b1001 4
+b1001 <
+b1001 @
+b1000 7
+b1000 ;
+b1000 A
+b110 5
+b110 =
+b110 ?
+1(
+#180
+0(
+#185
+b1100 4
+b1100 <
+b1100 @
+b1001 5
+b1001 =
+b1001 ?
+b111 7
+b111 ;
+b111 A
+1(
+#190
+0(
+#195
+b1111 4
+b1111 <
+b1111 @
+b110 7
+b110 ;
+b110 A
+b1100 5
+b1100 =
+b1100 ?
+1(
+#200
+0(
+#205
+b10010 4
+b10010 <
+b10010 @
+b1111 5
+b1111 =
+b1111 ?
+b101 7
+b101 ;
+b101 A
+1(
+#210
+0(
+#215
+b10101 4
+b10101 <
+b10101 @
+b100 7
+b100 ;
+b100 A
+b10010 5
+b10010 =
+b10010 ?
+1(
+#220
+0(
+#225
+b11000 4
+b11000 <
+b11000 @
+b10101 5
+b10101 =
+b10101 ?
+b11 7
+b11 ;
+b11 A
+1(
+#230
+0(
+#235
+b11011 4
+b11011 <
+b11011 @
+b10 7
+b10 ;
+b10 A
+b11000 5
+b11000 =
+b11000 ?
+1(
+#240
+0(
+#245
+b11110 4
+b11110 <
+b11110 @
+b100 1
+b11011 5
+b11011 =
+b11011 ?
+1!
+b1 7
+b1 ;
+b1 A
+1(
+#250
+0(
+#255
+b0 1
+b100001 4
+b100001 <
+b100001 @
+b100 2
+0!
+b0 7
+b0 ;
+b0 A
+b11110 5
+b11110 =
+b11110 ?
+1(
+#256
+1"
+0#
+0%
+#260
+0(
+#265
+b0 2
+1(
+#266
+0"
+#270
+0(
+#275
+1(
+#280
+0(
+#285
+1(
+#290
+0(
+#295
+1(
+#300
+0(
+#305
+1(
+#306
