@@ -1,2 +1,1 @@
-# Simple-Multiplier-in-Verilog
-A modular Verilog implementation of a serial shift-add multiplier with separate datapath and control modules, verified using Icarus Verilog and GTKWave.
+Collection of RTL design projects implemented in Verilog HDL, including datapath/control separation, testbenches, and synthesis results.
